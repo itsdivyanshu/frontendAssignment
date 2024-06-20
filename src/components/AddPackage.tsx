@@ -60,7 +60,7 @@ const AddPackage: React.FC = () => {
         <div className="max-w-md mx-auto p-4">
             <div className="mb-4">
                 <label htmlFor="search" className="block text-gray-700 text-sm font-bold mb-2">
-                    Search for sex
+                    Search for NPM Packages
                 </label>
                 <ReuseInput
                     id="search"
