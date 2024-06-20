@@ -63,7 +63,7 @@ const ViewPackages: React.FC = () => {
             <h1 className="text-2xl font-bold mb-4 text-center">Your Fav NPM Packages</h1>
             {favPackages.length === 0 ? (
                 <div className="border rounded p-4 text-center">
-                    <p className="mb-4">You don't have any favs yet. Please add.</p>
+                    <p className="mb-4">You don't have any favs yet.</p>
                     <Link to="/add-new-package" className="bg-purple-500 hover:bg-purple-700 text-white font-bold py-2 px-4 rounded">
                         Add Fav
                     </Link>
